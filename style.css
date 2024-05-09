@@ -1,0 +1,64 @@
+/*General styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'poppins',sans-serif;
+    background: #F3F5F4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85,85,85);
+}
+
+/*transition*/
+/*links and buttons*/
+a, .btn{
+    transition: all 300ms ease;
+}
+
+/*Nab bar*/
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+
+a{
+    color:#CD8485;
+    text-decoration: none;
+    text-decoration-color: #F3F5F4;  
+}
+
+a:hover{
+    color: #A6ACAE;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:rgb(181,181,181);
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+#logo-image{
+    height: 17vh;
+}
