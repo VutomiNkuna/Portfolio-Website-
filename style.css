@@ -290,4 +290,61 @@ section {
     color: #251b35;
 }
 
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+#education {
+    position: relative;
+}
+
+#icon-arrow2 {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    font-size: 3rem;
+    color: #251b35;
+}
+
+.education-sub-title {
+    color: #a6acae;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.education-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #f3f5f4;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    gap: 2.5rem;
+}
+
+article {
+    display: flex;
+    width: calc(50% - 1.25rem); 
+    justify-content: space-around;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px; 
+    background-color:#251b35; 
+
+article #icon-edu {
+    font-size: 1.5rem; }
+
+article div {
+    flex: 1; }
+}
 
