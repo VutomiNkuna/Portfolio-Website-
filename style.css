@@ -323,7 +323,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #f3f5f4;
+    color: #a6acae;
 }
 
 .article-container {
@@ -491,4 +491,15 @@ article div {
 
 .email-icon{
     height: 2,5rem;
+}
+
+/*footer section*/
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
 }
