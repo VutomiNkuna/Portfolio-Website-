@@ -8,6 +8,17 @@
     , initial-scale=1.0"
     />
     <title>My Portfolio</title>
+    <!--Import Icons-->
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Import Fonts-->
+    >
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
@@ -50,10 +61,11 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="Section_pic-container">
+      <div class="section__pic-container">
         <img
           src="./assets/landing_page_image.jpeg"
           alt="Vutomi Nkuna profile picture"
+          class="pic__vutomi-nkuna"
         />
       </div>
       <div class="section__text">
@@ -61,7 +73,27 @@
         <h1 class="title">Vutomi Nkuna</h1>
         <p class="section__text__p2">Software Engineer</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('')"></button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Vutomi-Monyalue-Nkuna - CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <i
+            class="fa-brands fa-linkedin"
+            id="icon-link"
+            onclick="location.href='https://www.linkedin.com/in/vutomi-nkuna'"
+          ></i>
+          <i
+            class="fa-brands fa-github"
+            id="icon-git"
+            onclick="location.href='https://github.com/VutomiNkuna'"
+          ></i>
         </div>
       </div>
     </section>
