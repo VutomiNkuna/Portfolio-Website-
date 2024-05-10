@@ -270,3 +270,24 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
+/*about section*/
+#about {
+    position: relative;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#icon-arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    font-size: 3rem;
+    color: #251b35;
+}
+
+
