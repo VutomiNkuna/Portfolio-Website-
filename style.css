@@ -271,7 +271,7 @@ section {
   gap: 1rem;
 }
 
-/*about section*/
+/*about section/education section*/
 #about {
     position: relative;
 }
@@ -340,7 +340,7 @@ article {
     padding: 1rem;
     border: #251b35 0.05rem solid;
     border-radius: 10px; 
-    background-color:#a6acae; 
+    background-color:#f3f5f4; 
 
 article #icon-edu {
     font-size: 1.5rem; }
@@ -451,4 +451,44 @@ article div {
 .project-btn {
     color: #251b35;
     border-color: #251b35;
+}
+/*contact section*/
+#Contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: #251b35 0.1rem solid;
+    border-color: #cd8485;
+    background: #f3f5f4;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+#contact-icon, #contact-icon1{
+    cursor: default;
+    font-size: 2rem;
+    color: #251b35;
+}
+
+.email-icon{
+    height: 2,5rem;
 }
